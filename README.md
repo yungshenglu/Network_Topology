@@ -1,6 +1,6 @@
 # Network Topology with Mininet
 
-This repository is lab for NCTU course "Introduction to Computer Networks 2018".
+This repository is a lab for NCTU course "Introduction to Computer Networks 2018".
 
 ---
 ## Abstract
@@ -14,46 +14,46 @@ In this lab, we are going to write a Python program which can generate a network
 2. Learn how to measure the bandwidth in your network topology with iPerf
 
 ---
-## Execution
+## Overview
 
-> TODO: 
-> * Describe how to execute your program
-> * Show the screenshot of using iPerf command in Mininet
+1. We will give you a Python code (`example.py`) that includes an example network topology of Mininet
+2. We will get you a figure illustrating a new topology you should generate
+3. Copy the necessary function code from `example.py` and write your Python code (`topology.py`) to generate this topology
 
 ---
-## Description
+## Tasks
 
-### Mininet API in Python
+> **NOTICE:** Please follow this [slides](Tasks.pdf) for detail.
 
-> TODO:
-> * Describe the meaning of Mininet API in Python you used in detail
+1. Environment Setup
+2. Example of Mininet
+3. Topology Generator
+4. Measurement
 
-### iPerf Commands
+### File Structure
 
-> TODO:
-> * Describe the meaning of iPerf command you used in detail
-
-### Tasks
-
-> TODO:
-> * Describe how you finish this work step-by-step in detail
-
-1. **Environment Setup**
-
-
-2. **Example of Mininet**
-
-
-3. **Topology Generator**
-
-
-4. **Measurement**
+```bash
+Network_Topology/               # This is ./ in this repository
+|--- src/                       # Folder of source code
+     |--- topo/                 # The figure of topology
+          |--- topo0.png
+          |--- topo1.png
+          |--- topo2.png
+     |--- expect/               # Expected result using iPerf
+          |--- topo0
+          |--- topo1
+          |--- topo2
+     |--- out/                  # Output files
+          |--- .gitkeep         # For keeping this folder
+     |--- example.py            # Example code of using Mininet
+     |--- topology.py           # Your program should be here!
+|--- LICENSE
+|--- README.md
+|--- .gitignore                 # For ignoring useless files
+```
 
 ---
 ## References
-
-> TODO: 
-> * Please add your references in the following
 
 * **Mininet**
     * [Mininet Walkthrough](http://mininet.org/walkthrough/)
@@ -75,15 +75,11 @@ In this lab, we are going to write a Python program which can generate a network
     * [鳥哥的 Linux 私房菜 – 第九章、vim 程式編輯器](http://linux.vbird.org/linux_basic/0310vi.php)
 
 ---
-## Contributors
+## Contributor
 
-> TODO:
-> * Please replace "YOUR_NAME" and "YOUR_GITHUB_LINK" into yours
-
-* [YOUR_NAME](YOUR_GITHUB_LINK)
 * [David Lu](https://github.com/yungshenglu)
 
 ---
 ## License
 
-GNU GENERAL PUBLIC LICENSE Version 3
+[GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)
