@@ -1,0 +1,107 @@
+{
+    "hosts": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+    ],
+    "switches": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9"
+    ],
+    "links": [
+        {
+            "link": ["h1", "s1"],
+            "bw": 12,
+            "delay": "6ms",
+            "loss": 2
+        },
+        {
+            "link": ["s1", "s8"],
+            "bw": 20,
+            "delay": "7ms",
+            "loss": 15
+        },
+        {
+            "link": ["s6", "h2"],
+            "bw": 18,
+            "delay": "2ms",
+            "loss": 3
+        },
+        {
+            "link": ["s4", "s5"],
+            "bw": 14,
+            "delay": "5ms",
+            "loss": 2
+        },
+        {
+            "link": ["s8", "s4"],
+            "bw": 23,
+            "delay": "6ms",
+            "loss": 10
+        },
+        {
+            "link": ["s8", "s2"],
+            "bw": 25,
+            "delay": "6ms",
+            "loss": 14
+        },
+        {
+            "link": ["s8", "s6"],
+            "bw": 30,
+            "delay": "1ms",
+            "loss": 12
+        },
+        {
+            "link": ["s2", "s9"],
+            "bw": 30,
+            "delay": "3ms",
+            "loss": 18
+        },
+        {
+            "link": ["s9", "s7"],
+            "bw": 33,
+            "delay": "8ms",
+            "loss": 10
+        },
+        {
+            "link": ["s3", "s9"],
+            "bw": 35,
+            "delay": "2ms",
+            "loss": 17
+        },
+        {
+            "link": ["s7", "h3"],
+            "bw": 18,
+            "delay": "6ms",
+            "loss": 6
+        },
+        {
+            "link": ["h4", "s3"],
+            "bw": 13,
+            "delay": "3ms",
+            "loss": 5
+        },
+        {
+            "link": ["s5", "h6"],
+            "bw": 15,
+            "delay": "4ms",
+            "loss": 3
+        },
+        {
+            "link": ["s9", "h5"],
+            "bw": 30,
+            "delay": "3ms",
+            "loss": 20
+        }
+    ]
+}
